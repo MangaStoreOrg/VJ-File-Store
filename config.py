@@ -94,9 +94,9 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
-        URL = "https://app.koyeb.com/apps/13608a2f-dec8-4fd7-9964-97227b68ea16/services/cf0ab884-9e30-49bb-9514-a77febe32e18/deployments/d97f8419-af3d-49b1-934f-0e1f9892b615"
+        URL = "https://filesharingbot-nuthing.koyeb.app/"
     else:
-        URL = "https://app.koyeb.com/apps/13608a2f-dec8-4fd7-9964-97227b68ea16/services/cf0ab884-9e30-49bb-9514-a77febe32e18/deployments/d97f8419-af3d-49b1-934f-0e1f9892b615"
+        URL = "https://filesharingbot-nuthing.koyeb.app/"
 
 
 
